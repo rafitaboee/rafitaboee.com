@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Establecer charset en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configurar el viewport para compatibilidad con dispositivos móviles -->
+    <meta name="description" content="Este es un ejemplo de cómo usar meta tags en una página web. Incluye elementos importantes como charset, viewport, SEO y redes sociales."> <!-- Descripción de la página -->
+    <meta name="keywords" content="meta tags, HTML, SEO, Open Graph, Twitter Cards, ejemplo, tutorial"> <!-- Palabras clave relacionadas con el tema -->
+    
+    <!-- Meta tags para indexación -->
+    <meta name="robots" content="index, follow"> <!-- Los motores de búsqueda deben indexar la página y seguir los enlaces -->
+    
+    <!-- Meta tags para redes sociales (Open Graph y Twitter Cards) -->
+    <meta property="og:title" content="Ejemplo de Meta Tags en HTML"> <!-- Título para Open Graph (Facebook) -->
+    <meta property="og:description" content="Aprende cómo agregar meta tags a tu página HTML para mejorar su SEO y cómo compartirla en redes sociales."> <!-- Descripción para Open Graph -->
+    <meta property="og:image" content="https://via.placeholder.com/600x300.png"> <!-- Imagen para Open Graph -->
+    
+    <meta name="twitter:card" content="summary_large_image"> <!-- Tipo de tarjeta de Twitter -->
+    <meta name="twitter:title" content="Ejemplo de Meta Tags en HTML"> <!-- Título para Twitter Cards -->
+    <meta name="twitter:description" content="Aprende cómo usar meta tags en HTML para mejorar el SEO y compartir en redes sociales."> <!-- Descripción para Twitter Cards -->
+    <meta name="twitter:image" content="https://via.placeholder.com/600x300.png"> <!-- Imagen para Twitter Cards -->
+    
+    <title>Meta Tags en HTML</title> <!-- Título de la página -->
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #9b59b6, #3498db); /* Fondo con gradiente morado claro y azul */
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            margin-top: 40px;
+            font-weight: 700;
+        }
+
+        h2, h3 {
+            font-size: 2rem;
+            color: #f4f4f4;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        p, ul, ol {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px 0;
+            text-align: justify;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* Contenedor para imágenes */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+        }
+
+        /* Contenedor de preguntas con fondo sutil */
+        .question-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 900px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-container li {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .question-container p {
+            margin: 10px 0 20px 20px;
+            text-align: justify;
+        }
+
+        .question-container li strong {
+            color: #f39c12;
+        }
+
+        /* Estilos del footer */
+        footer {
+            background-color: #2c3e50;
+            padding: 20px;
+            color: #ecf0f1;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido al Ejemplo de Meta Tags</h1>
+    <p>Esta página contiene una serie de ejemplos de meta tags y su importancia en la optimización de sitios web. A continuación, exploramos algunos aspectos clave sobre su uso.</p>
+
+    <!-- Sección de imágenes con movimiento -->
+    <div class="image-container">
+        <img src="https://th.bing.com/th/id/OIP.sVXiNvg4wQJkkQ0Lwfri4AHaE8?rs=1&pid=ImgDetMain" alt="Computadora 1">
+        <img src="https://th.bing.com/th/id/OIP.ZHRC0D6XF-kafkPrQViypgHaEQ?pid=ImgDet&w=203&h=116&c=7" alt="Computadora 2">
+        <img src="https://th.bing.com/th/id/OIP.PesN81DG59uVt0T_QV8eVAHaEO?w=303&h=180&c=7&r=0&o=5&pid=1.7" alt="Computadora 3">
+    </div>
+
+    <h2>Preguntas de Reflexión:</h2>
+    <div class="question-container">
+        <ol>
+            <li><strong>¿Por qué es importante incluir el meta tag <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>?</strong>
+                <p>El meta tag <code>viewport</code> es esencial para hacer que las páginas web sean responsivas. Asegura que el contenido se ajuste correctamente a diferentes tamaños de pantalla, como en dispositivos móviles, mejorando la experiencia del usuario.</p>
+            </li>
+            
+            <li><strong>¿Cómo ayudan los meta tags a mejorar el posicionamiento en Google?</strong>
+                <p>Los meta tags, especialmente el <code>description</code>, <code>keywords</code>, y <code>robots</code>, ayudan a los motores de búsqueda a entender el contenido de la página, lo que puede mejorar su visibilidad en los resultados de búsqueda.</p>
+            </li>
+            
+            <li><strong>¿Qué sucede si no se incluye un meta tag description en la página?</strong>
+                <p>Si no se incluye un <code>meta description</code>, los motores de búsqueda pueden generar una descripción predeterminada, lo que puede afectar la claridad de la información que aparece en los resultados de búsqueda. Una descripción adecuada puede atraer más clics.</p>
+            </li>
+            
+            <li><strong>¿Cómo los meta tags Open Graph mejoran la forma en que se comparte una página en Facebook?</strong>
+                <p>Los meta tags Open Graph permiten que una página se comparta de manera más atractiva en redes sociales como Facebook. Proporcionan información como el título, la descripción y la imagen, lo que mejora la presentación al compartirla.</p>
+            </li>
+        </ol>
+    </div>
+
+    <h3>¿Qué son los Meta Tags?</h3>
+    <p>Los <strong>meta tags</strong> son elementos HTML que se utilizan para proporcionar información adicional sobre una página web. Aunque no son visibles para los usuarios cuando visitan la página, los meta tags son fundamentales para los navegadores, motores de búsqueda y otros servicios web.</p>
+    <p>Los meta tags se ubican en la sección <code>&lt;head&gt;</code> de una página HTML. Sirven para optimizar el rendimiento de la página en cuanto a accesibilidad, SEO y compartibilidad en redes sociales. Además, no son visibles en la interfaz del sitio, pero proporcionan información crucial para mejorar la experiencia del usuario y el posicionamiento en los motores de búsqueda.</p>
+
+    <h3>Usos de los Meta Tags:</h3>
+    <ul>
+        <li>Proveer información sobre la codificación de caracteres (como <code>charset</code>).</li>
+        <li>Optimizar el contenido para dispositivos móviles mediante el <code>viewport</code>.</li>
+        <li>Mejorar el SEO a través de etiquetas como <code>description</code> y <code>keywords</code>.</li>
+        <li>Optimizar el contenido cuando se comparte en redes sociales mediante Open Graph y Twitter Cards.</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Ejemplo de Meta Tags. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
